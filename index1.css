@@ -1,0 +1,363 @@
+body
+{
+    
+    background: url("https://images.unsplash.com/photo-1606237906294-ae86d103d715?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80") repeat;
+    margin: 0;
+    font-family: system-ui;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333333;
+    background-blend-mode: darken;
+    box-shadow: 0 0 5px 2px #282a2d;
+}
+
+.parallax{
+   background-image: url("https://c1.wallpaperflare.com/preview/127/182/407/grocery-store-supermarket-vegetable-shop.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+h1,h2
+{
+    
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.page-title
+{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+}
+
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu
+{
+    background: #184d47;
+    text-align: center;
+}
+
+.menu-ul 
+{
+    margin: 0;
+    padding : 0;
+    display: inline;
+}
+
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+
+.a-menu
+{
+    text-decoration: none;
+    color: white;
+}
+
+.menu-ul li :hover 
+{
+    background: #5b8c5a;
+    transform: scale(5.8);
+}
+
+.search-box
+{
+    
+    background: white;
+    width: max-content;
+    display: inline-block;
+    border-radius: 50px;
+
+}
+
+.search-box :hover 
+{
+    box-shadow : 0 0 10px 2px #5b8c5a;
+}
+
+.search-input
+{
+    width: 250px;
+    height: 25px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+
+    background: transparent;
+
+    border-radius: 50px;
+}
+
+
+em
+{
+    font-size: 50px;
+}
+
+button{
+    background: transparent;
+    border: none;
+    height: 25px;
+    outline: none;
+    border-radius: 50px;
+}
+.container , .deals-Container
+{
+    margin: 50px 50px 50px 5%;
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.categories
+{
+    background-color: rgba(181, 228, 255, 0.356);
+    width: max-content;
+    margin: 25px;
+    text-align: center;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}
+
+.categories :hover, .items:hover
+{
+    box-shadow: 0 0 10px 3px #184d47;
+
+}
+
+
+.image-title
+{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+   margin-bottom: 5px;
+    margin-inline: 20px;
+    border-radius: 0 0 30px 30px ;
+}
+
+.Great
+{
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 0 0 50px 50px ;
+}
+
+a{
+    text-decoration: none;
+}
+h1
+{
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.search-btn
+{
+    color:black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: white;
+}
+
+.title{
+    padding: 50px;
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.deal{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    max-width: 20%;
+    background:rgba(208, 255, 181, 0.521);
+}
+
+.coupon-button{
+    border: 1px solid blue;
+    font-weight: bold;
+    color: blue;
+    margin-top: 20px;
+    padding: none;
+    border-radius: 20px;
+}
+
+.coupon-button :hover{
+    box-shadow: 0 0 10px 5px white inset;
+}
+
+.images{
+    display: inline-block;
+}
+
+.item-image-size{
+    height: 200px;
+    width: 380px;
+    padding: 5px;
+}
+
+.description{
+    margin: 20px;
+    min-height: 100px;
+    margin-left: 100px;
+}
+
+.item-select{
+    
+    font-weight: 500;
+    margin: 10px 0 0 0;
+
+}
+
+.buynow-btn{
+    border: 1px solid #184d47;
+    background: #184d47;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.buynow-btn:hover{
+    border: 1px solid #5b8c5a;
+    box-shadow: 0 0 10px 5px #5b8c5a inset;
+}
+
+.lower-section{
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.quick-links{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 30%;
+}
+
+.quick-links ul{
+    padding: 0;
+}
+
+.quick-links li{
+ 
+    list-style: none;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.a-links{
+    color: white;
+}
+
+.a-links:hover{
+    color: #fd5e53;
+}
+
+.copyrights{
+    color: white;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 15px;
+
+}
+
+.parallax1{
+    background-image: url("https://c1.wallpaperflare.com/preview/127/182/407/grocery-store-supermarket-vegetable-shop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+.parallax2
+{
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/11/rice-03-920x518.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.parallax3
+{
+    background-image: url("https://images8.alphacoders.com/376/thumb-1920-376703.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.parallax4
+{
+    background-image: url("https://st3.depositphotos.com/2036925/18364/i/600/depositphotos_183647416-stock-photo-glass-of-ghee-butter.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+.parallax5
+{
+    background-image: url("https://wallup.net/wp-content/uploads/2018/09/30/117350-oil-macro-orange-bubbles-bokeh-748x468.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.parallax6
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLAbqZPlNYgHlw6rUI2R4d4W_rkqVYPKsMIQ&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.items
+{
+    background-color: rgba(255, 235, 181, 0.479);
+    width: max-content;
+    margin: 25px;
+    margin-left: 70px;
+    text-align: center;
+    width: 400px;
+    border: 1px solid #184d47;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+}

@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Document</title>
+  <link rel="stylesheet" href="index1.css"/>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script>
+    function stickyMenu () 
+    {
+      var sticky=document.getElementById('sticky');
+      if(window.pageYOffset >220) {
+        sticky.classList.add('sticky');
+      }
+      else {
+             sticky.classList.remove('sticky');
+      }
+    }
+    window.onscroll= function() {
+      stickyMenu();
+    }
+  </script>
+</head>
+<body>
+  <div class="parallax">
+  <div class="page-title">Ramu's Shop</div>
+  </div>
+  <div class="menu" id="sticky">
+    <ul class= "menu-ul">
+      <a href="#Home" class="a-menu"><li>Home</li></a>
+      <a href="#Deals-with-Discounts" class="a-menu"><li>Deals with Discounts</li></a>
+      <a href="#Rice" class="a-menu"><li>Rice</li></a>
+      <a href="#Tomatos" class="a-menu"><li>Tomatos</li></a>
+      <a href="#Ghee" class="a-menu"><li>Ghee</li></a>
+      <a href="#Oil" class="a-menu"><li>Oil</li></a>
+      <a href="#Soap" class="a-menu"><li>Soap</li></a> 
+    </ul>
+    <div class="search-box">
+      <form>
+        <input type="search" placeholder="Search . . . . " id="search" name="search" 
+        class="search-input"/>
+         <button type="submit"><em class="fa fa-search"></em></button>
+      </form>
+    </div>
+  </div>
+
+  <!---Home Page Begins-->
+  <div class="#Home"  id="Home">
+  <div class="container">
+    <h1>Manufacturer of These Product</h1>
+    <a href="#Rice">
+      <div class="categories" >
+        <img alt src="https://wallpaperboat.com/wp-content/uploads/2019/11/rice-03-920x518.jpg"  class="Great"/>
+        <div class="image-title" >Rice</div>
+      </div>
+    </a>
+    <a href="#Tomatos">
+      <div class="categories">
+        <img alt src="https://www.teahub.io/photos/full/259-2598015_cherry-tomatoes-in-wooden-box-cherry-tomato.jpg"   class="Great"/>
+        <div class="image-title">Tomatos</div>
+      </div>
+    </a>
+
+      <h2>Trader of these Below Product</h2>
+    
+    <a href="#Ghee">
+      <div class="categories">
+        <img alt src="https://thumbs.dreamstime.com/b/ghee-clarified-butter-jar-wooden-spoon-wooden-table-ghee-clarified-butter-jar-wooden-spoon-wooden-table-119323777.jpg"     class="Great"/>
+        <div class="image-title">Ghee</div>
+      </div>
+    </a>
+    <a href="#Oil">
+      <div class="categories">
+        <img alt src="https://static.toiimg.com/photo/msid-68562254/68562254.jpg?1554961"    class="Great"/>        
+      <div class="image-title">Oil</div>
+      </div>
+    </a>
+    <a href="#Soap">
+      <div class="categories">
+        <img alt src="https://www.vhv.rs/dpng/d/436-4365770_dettol-bathing-soap-dettol-cool-soap-price-hd.png"     class="Great"/>
+        <div class="image-title">Soap</div>
+      </div>
+    </a>
+  </div>
+  </div>
+  <!-------------Deals Begins Here------->
+    <div class="deals-Container"  id="Deals-with-Discounts">
+        <div class="parallax1">
+            <div class="title">Deals with Discounts</div>
+        </div>
+        <div class="deal">
+            Save 20% on min-purchase of ₹ 800 on Ghee<br/>
+            <Button class="coupon-button">Add Coupon</Button>
+        </div>
+        <div class="deal">
+            Save 20% on min-purchase of ₹ 250 on Tomatos<br/>
+            <Button class="coupon-button">Add Coupon</Button>
+        </div>
+        <div class="deal">
+            Save 20% on min-purchase of ₹ 300 on Rice<br/>
+            <Button class="coupon-button">Add Coupon</Button>
+        </div>
+    </div>
+    <!-------Rice Begins Here------------>
+    <div class="deals-container"  id="Rice">
+        <div class="parallax2">
+            <div class="title">Rice</div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://www.vegrecipesofindia.com/wp-content/uploads/2015/12/how-to-cook-basmati-rice-in-a-pot-1.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Basmati Rice</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 180/kg</div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                    
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://goorganicsfood.com/wp-content/uploads/sites/92/2020/12/download-17.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Ambemohar Rice</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 78/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://i2.wp.com/www.eatthis.com/wp-content/uploads/2020/01/black-rice.jpg?resize=640%2C360&ssl=1" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Burma Black Rice</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 125/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://www.gitagged.com/wp-content/uploads/2018/11/Gnadakaskala-1.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Gandhakasala Rice</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 150/kg  
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://4.imimg.com/data4/BK/PX/MY-4920794/jeerakasala-rice-250x250.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Rice</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 180/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://organicwayfarm.in/wp-content/uploads/2017/12/Kalannamak_Boiled_Brown_Rice1.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Kalanamak Rice</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 399/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <!-------Rice Ends Here------------>
+
+    <!-------Tomatos  Begins Here------------>
+    <div class="deals-container"  id="Tomatos">
+        <div class="parallax3">
+            <div class="title">Tomatos</div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://cdn.loveandlemons.com/wp-content/uploads/2019/08/cherry-tomatoes-1-158x158.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Cherry Tomatos</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 135/kg</div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://gardenerspath.com/wp-content/uploads/2020/07/La-Roma-III.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Roma Tomatos</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 149/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://i.ebayimg.com/images/g/jMcAAOSwEeFVQbCi/s-l300.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Campari Tomatos</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 180/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://s3.amazonaws.com/cdn.gurneys.com/images/500/15121A.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Better Boy Tomatos</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 1500/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://cdn3.volusion.com/ph9xz.o9ecs/v/vspfiles/photos/TF-0443-2.jpg?v-cache=1574135723" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>San Marzano Tomatos</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 100/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://www.edenbrothers.com/store/media/Seeds-Vegetables/resized/Tomato-Golden-Jubilee_medium.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Jubilee Tomatos</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 80/kg
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 kg</option>
+                    <option>2 kg</option>
+                    <option>3 kg</option>
+                    <option>4 kg</option>
+                    <option>5 kg</option>
+                    <option>6 kg</option>
+                    <option>7 kg</option>
+                    <option>8 kg</option>
+                    <option>9 kg</option>
+                    <option>10 kg</option>
+                    <option>11 kg</option>
+                    <option>12 kg</option>
+                    <option>13 kg</option>
+                    <option>14 kg</option>
+                    <option>15 kg</option>
+                    <option>16 kg</option>
+                    <option>17 kg</option>
+                    <option>18 kg</option>
+                    <option>19 kg</option>
+                    <option>20 kg</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <!-------Tomatos Ends Here------------>
+
+
+
+    <!-------Ghee Starts Here------------>
+
+    <div  class="deals-container"  id="Ghee">
+        <div class="parallax4">
+            <div class="title">Ghee</div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://osiamart.com/image/cache/catalog/products/50product/AMUL%20PURE%20GHEE-1%20LTR-550x550.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Amul Pure Ghee</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 490/L</div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://www.zotezo.com/in/wp-content/uploads/sites/2/2020/05/mother-dairy-cow-ghee-1l.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Mother Dairy Cow Ghee</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 469/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://www.zotezo.com/in/wp-content/uploads/sites/2/2020/05/nestle-everyday-ghee-1l.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Nestle Everyday Shahi Ghee</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 446/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://www.baidyanath.com/wp-content/uploads/2020/10/Ghee-1.png" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Baidyanath Premium Cow Ghee</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 680/900ml
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>900 ml</option>
+                    <option>1.8 litre</option>
+                    <option>2.7 litre</option>
+                    <option>3.6 litre</option>
+                    <option>4.5 litre</option>
+                    <option>5.4 litre</option>
+                    <option>6.3 litre</option>
+                    <option>7.2 litre</option>
+                    <option>8.1 litre</option>
+                    <option>9.0 litre</option>
+                    <option>9.9 litre</option>
+                    <option>10.8 litre</option>
+                    <option>11.7 litre</option>
+                    <option>12.6 litre</option>
+                    <option>13.5 litre</option>
+                    <option>14.4 litre</option>
+                    <option>15.3 litre</option>
+                    <option>16.2 litre</option>
+                    <option>17.1 litre</option>
+                    <option>18.0 litre</option>
+                    <option>19.9 litre</option>
+                    <option>20.8 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+    <div  class="items">
+        <div class="images">
+            <img alt src="https://www.zotezo.com/in/wp-content/uploads/sites/2/2020/05/organic-india-pure-cow-desi-500-ml-glass-bottle.jpeg" class="item-image-size" />
+        </div>
+        <div class="Description">
+            <strong>Organic India Cow Ghee</strong><br/>
+            <div class="item-select">
+                Price : ₹ 1300/L
+            </div>
+            <label>Quantity : </label>
+            <select class="item-select">
+                <option>1 litre</option>
+                <option>2 litre</option>
+                <option>3 litre</option>
+                <option>4 litre</option>
+                <option>5 litre</option>
+                <option>6 litre</option>
+                <option>7 litre</option>
+                <option>8 litre</option>
+                <option>9 litre</option>
+                <option>10 litre</option>
+                <option>11 litre</option>
+                <option>12 litre</option>
+                <option>13 litre</option>
+                <option>14 litre</option>
+                <option>15 litre</option>
+                <option>16 litre</option>
+                <option>17 litre</option>
+                <option>18 litre</option>
+                <option>19 litre</option>
+                <option>20 litre</option>
+            </select><br/>
+            <button class="buynow-btn"> Buy Now</button>
+        </div>
+    </div>
+
+    <div  class="items">
+        <div class="images">
+            <img alt src="https://www.zotezo.com/in/wp-content/uploads/sites/2/2020/05/aashirvaad-svasti-ghee-1l.jpg" class="item-image-size" />
+        </div>
+        <div class="Description">
+            <strong>Aashirvaad Svasti Pure Cow Ghee</strong><br/>
+            <div class="item-select">
+                Price : ₹ 546.25/L
+            </div>
+            <label>Quantity : </label>
+            <select class="item-select">
+                <option>1 litre</option>
+                <option>2 litre</option>
+                <option>3 litre</option>
+                <option>4 litre</option>
+                <option>5 litre</option>
+                <option>6 litre</option>
+                <option>7 litre</option>
+                <option>8 litre</option>
+                <option>9 litre</option>
+                <option>10 litre</option>
+                <option>11 litre</option>
+                <option>12 litre</option>
+                <option>13 litre</option>
+                <option>14 litre</option>
+                <option>15 litre</option>
+                <option>16 litre</option>
+                <option>17 litre</option>
+                <option>18 litre</option>
+                <option>19 litre</option>
+                <option>20 litre</option>
+            </select><br/>
+            <button class="buynow-btn"> Buy Now</button>
+        </div>
+    </div>
+</div>
+    <!-------Ghee Ends Here------------>
+
+
+    <!-------Oil Starts Here------------>
+
+    <div class="deals-container"  id="Oil">
+        <div class="parallax5">
+            <div class="title">Oil</div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://images-eu.ssl-images-amazon.com/images/I/51GyUUKe-0L._AC_UL600_SR600,600_.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Fortune Soya Bean Oil</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 165/L</div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://martonfinger.in/upload/product/thumb_300_e68a1bd22d68ef912bd18650f47877e4.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Hathi Brand - Kacchi Ghani Mustard Oil</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 300/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://images-na.ssl-images-amazon.com/images/I/71PA6oc4PXL._SL1500_.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Saffola Gold Cooking Oil</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 185/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://images-na.ssl-images-amazon.com/images/I/61dPIrJJnXL._SL1200_.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Dhara Nourish Oil</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 160/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://images-na.ssl-images-amazon.com/images/I/71GJheRaswL._SL1500_.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Dabur Cold Pressed Mustard Oil</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 195/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+        <div  class="items">
+            <div class="images">
+                <img alt src="https://images-na.ssl-images-amazon.com/images/I/61Bwalv3uEL._SL1500_.jpg" class="item-image-size" />
+            </div>
+            <div class="Description">
+                <strong>Borges Olive Oil</strong><br/>
+                <div class="item-select">
+                    Price : ₹ 537.50/L
+                </div>
+                <label>Quantity : </label>
+                <select class="item-select">
+                    <option>1 litre</option>
+                    <option>2 litre</option>
+                    <option>3 litre</option>
+                    <option>4 litre</option>
+                    <option>5 litre</option>
+                    <option>6 litre</option>
+                    <option>7 litre</option>
+                    <option>8 litre</option>
+                    <option>9 litre</option>
+                    <option>10 litre</option>
+                    <option>11 litre</option>
+                    <option>12 litre</option>
+                    <option>13 litre</option>
+                    <option>14 litre</option>
+                    <option>15 litre</option>
+                    <option>16 litre</option>
+                    <option>17 litre</option>
+                    <option>18 litre</option>
+                    <option>19 litre</option>
+                    <option>20 litre</option>
+                </select><br/>
+                <button class="buynow-btn"> Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+    <!-------Oil Ends Here------------>
+
+
+        <!-------Soap Starts Here------------>
+
+        <div class="deals-container"  id="Soap">
+            <div class="parallax6">
+                <div class="title">Soap</div>
+            </div>
+            <div  class="items">
+                <div class="images">
+                    <img alt src="https://images-na.ssl-images-amazon.com/images/I/51nf-MK31vL._SL1000_.jpg" class="item-image-size" />
+                </div>
+                <div class="Description">
+                    <strong>Dove Cream Beauty Bathing Bar</strong><br/>
+                    <strong>5 piece in 1 pack</strong><br/>
+                    <div class="item-select">
+                        Price : ₹ 245/pack</div>
+                    <label>Quantity : </label>
+                    <select class="item-select">
+                        <option>1 pack</option>
+                        <option>2 pack</option>
+                        <option>3 pack</option>
+                        <option>4 pack</option>
+                        <option>5 pack</option>
+                        <option>6 pack</option>
+                        <option>7 pack</option>
+                        <option>8 pack</option>
+                        <option>9 pack</option>
+                        <option>10 pack</option>
+                    </select><br/>
+                    <button class="buynow-btn"> Buy Now</button>
+                </div>
+            </div>
+            <div  class="items">
+                <div class="images">
+                    <img alt src="https://www.bigbasket.com/media/uploads/p/l/306189-2_2-pears-pure-gentle-soap-bar.jpg" class="item-image-size" />
+                </div>
+                <div class="Description">
+                    <strong>Pears Pure And Gentle Soap</strong><br/>
+                    <strong>5 piece in 1 pack</strong><br/>
+                    <div class="item-select">
+                        Price : ₹ 335/pack
+                    </div>
+                    <label>Quantity : </label>
+                    <select class="item-select">                        <option>1 pack</option>
+                        <option>2 pack</option>
+                        <option>3 pack</option>
+                        <option>4 pack</option>
+                        <option>5 pack</option>
+                        <option>6 pack</option>
+                        <option>7 pack</option>
+                        <option>8 pack</option>
+                        <option>9 pack</option>
+                        <option>10 pack</option>
+
+                    </select><br/>
+                    <button class="buynow-btn"> Buy Now</button>
+                </div>
+            </div>
+            <div  class="items">
+                <div class="images">
+                    <img alt src="https://images-na.ssl-images-amazon.com/images/I/71y9jEUNBqL._SL1500_.jpg" class="item-image-size" />
+                </div>
+                <div class="Description">
+                    <strong>Dettol Original Soap</strong><br/>
+                    <strong>6 piece in 1 pack</strong><br/>
+                    <div class="item-select">
+                        Price : ₹ 276/pack
+                    </div>
+                    <label>Quantity : </label>
+                    <select class="item-select">
+                        <option>1 pack</option>
+                        <option>2 pack</option>
+                        <option>3 pack</option>
+                        <option>4 pack</option>
+                        <option>5 pack</option>
+                        <option>6 pack</option>
+                        <option>7 pack</option>
+                        <option>8 pack</option>
+                        <option>9 pack</option>
+                        <option>10 pack</option>
+
+                    </select><br/>
+                    <button class="buynow-btn"> Buy Now</button>
+                </div>
+            </div>
+    
+            <div  class="items">
+                <div class="images">
+                    <img alt src="https://images-na.ssl-images-amazon.com/images/I/51zgGhNR%2BmL._SL1000_.jpg" class="item-image-size" />
+                </div>
+                <div class="Description">
+                    <strong>Lux International Creamy Perfection Soap</strong><br/>
+                    <strong>5 piece in 1 pack</strong><br/>
+                    <div class="item-select">
+                        Price : ₹ 150/pack
+                    </div>
+                    <label>Quantity : </label>
+                    <select class="item-select">
+                        <option>1 pack</option>
+                        <option>2 pack</option>
+                        <option>3 pack</option>
+                        <option>4 pack</option>
+                        <option>5 pack</option>
+                        <option>6 pack</option>
+                        <option>7 pack</option>
+                        <option>8 pack</option>
+                        <option>9 pack</option>
+                        <option>10 pack</option>
+
+                    </select><br/>
+                    <button class="buynow-btn"> Buy Now</button>
+                </div>
+            </div>
+
+            <div  class="items">
+                <div class="images">
+                    <img alt src="https://images-na.ssl-images-amazon.com/images/I/61Ecaqrz0NL._SX522_.jpg" class="item-image-size" />
+                </div>
+                <div class="Description">
+                    <strong>Lifebuoy Total Germ Protection Soap</strong><br/>
+                    <strong>4 peices in 1 pack</strong><br/>
+                    <div class="item-select">
+                        Price : ₹ 112/pack
+                    </div>
+                    <label>Quantity : </label>
+                    <select class="item-select">
+                        <option>1 pack</option>
+                        <option>2 pack</option>
+                        <option>3 pack</option>
+                        <option>4 pack</option>
+                        <option>5 pack</option>
+                        <option>6 pack</option>
+                        <option>7 pack</option>
+                        <option>8 pack</option>
+                        <option>9 pack</option>
+                        <option>10 pack</option>
+
+                    </select><br/>
+                    <button class="buynow-btn"> Buy Now</button>
+                </div>
+            </div>
+            <div  class="items">
+                <div class="images">
+                    <img alt src="https://www.bigbasket.com/media/uploads/p/l/40190823-7_2-godrej-no1-no1-bathing-soap-lime-aloe-vera.jpg " class="item-image-size" />
+                </div>
+                <div class="Description">
+                    <strong>Godrej No. 1 Soap</strong><br/>
+                    <strong>6 peices in 1 pack</strong><br/>
+                    <div class="item-select">
+                        Price : 72/pack
+                    </div>
+                    <label>Quantity : </label>
+                    <select class="item-select">
+                        <option>1 pack</option>
+                        <option>2 pack</option>
+                        <option>3 pack</option>
+                        <option>4 pack</option>
+                        <option>5 pack</option>
+                        <option>6 pack</option>
+                        <option>7 pack</option>
+                        <option>8 pack</option>
+                        <option>9 pack</option>
+                        <option>10 pack</option>
+
+                    </select><br/>
+                    <button class="buynow-btn"> Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+        <!-------Oil Ends Here------------>
+    
+    
+    <!-------------Home page Ends Here-------------->
+<!-------Last Details Are Started Here------->
+
+    <div class="parallax1">
+        <div class="lower-section">
+            <div class="quick-links">
+                <div>Locations</div>
+                <ul>
+                    <li><a href=""  class="a-links">Address 1</a></li>
+                    <li><a href=""  class="a-links">Address 2</a></li>
+                    <li><a href=""  class="a-links">Address 3</a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <div>Careers</div>
+                <ul>
+                    <li><a href=""  class="a-links">Packing Staff</a></li>
+                    <li><a href=""  class="a-links">Delivery Agents</a></li>
+                    <li><a href=""  class="a-links">Shelf Fillers</a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <div>Quick Links</div>
+                <ul>
+                    <li><a href=""  class="a-links">Contact us</a></li>
+                    <li><a href=""  class="a-links">FAQ</a></li>
+                    <li><a href=""  class="a-links">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyrights">
+        <em class="far fa-copyright  fa-1x"></em> 2021 Hirdesh Kumar
+    </div>
+
+</body>
+</html>
